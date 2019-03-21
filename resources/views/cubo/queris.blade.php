@@ -22,10 +22,9 @@
                     <div class="card-body">
                     <div class="panel-body">
                         <ul>
-                            <li> {{ $T }} </li>
-                            <li> {{ $N }} </li>
-                            <li> {{ $M }} </li>
-                            <li> {{ $W }} </li>
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }}</li>
+                            <li>SUMA: {{ $W }} </li>
                         </ul>
                     </div>
                 </div>
@@ -33,88 +32,116 @@
                     <div class="card-header"><center>QUERY 1</center></div>
                         <div class="card-body">
                         <div class="panel-body">
-
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }}</li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 2</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                           
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                 @elseif($M == 3)
                     <div class="card-header"><center>QUERY 1</center></div>
                         <div class="card-body">
                         <div class="panel-body">
-
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 2</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                           
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 3</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                            
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }}</li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                 @elseif($M == 4)
                     <div class="card-header"><center>QUERY 1</center></div>
                         <div class="card-body">
                         <div class="panel-body">
-
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }}</li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 2</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                           
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 3</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                            
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 4</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                            
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                 @elseif($M == 5)
                     <div class="card-header"><center>QUERY 1</center></div>
                         <div class="card-body">
                         <div class="panel-body">
-
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 2</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                           
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 3</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                            
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }} </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 4</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                            
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }} </li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                     <div class="card-header"><center>QUERY 5</center></div>
                     <div class="card-body">
                         <div class="panel-body">
-                           
+                            <li>UPDATE {{ $V1 }} {{ $V1 }} {{ $V1 }} {{ $W }}  </li>
+                            <li>QUERY 1 1 1 {{ $N }} {{ $N }} {{ $N }}</li>
+                            <li>SUMA: {{ $W }} </li>
                         </div>
                     </div>
                 @else

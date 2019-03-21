@@ -56,10 +56,6 @@ class CuboController extends Controller
         $W = DB::table('cubes')->pluck('W')->last();
         $V1 = DB::table('cubes')->pluck('v1')->last();
 
-        for ($i = 1; $M; $i++) {
-            
-        }
-
         return view('cubo.queris', compact('T','N','M','W','V1'));
     }
 
