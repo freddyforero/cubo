@@ -11,6 +11,18 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+// Route::get('/', function () {
+//     return view('welcome');
+// });
+// Route::redirect('/', 'cubo');
+
+
+Auth::routes();
+
+// Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('ingresar', 'cubo\CuboController@update')->name('ingresar');
+Route::get('funcionar', 'cubo\CuboController@show')->name('funcionar');
+
+Route::get('reset', 'cubo\CuboController@edit')->name('reset');
+Route::resource('/', 'cubo\CuboController');
